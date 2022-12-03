@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt/BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Exercício para testes uso de HTML e CSS">
+  <title>PROJETO SEGUNDO ANO EM - OBJETIVO</title>
+
+  <style>
+    /* COMENTÁRIO Nesta área fazer a personalização inserindo 
+os códigos CSS  - "folha de estilo" composta por “camadas” 
+e utilizada para definir a apresentação (aparência) */
+
+
+    /* 1 - TITULO VERDE, 40PX E CENTRALIZADO */
+    h1 {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: navy;
+      width: 400px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* 2 - INSERIR A IMAGEM DE ITANHANDU NO TAMANHO DE 30% CENTRALIZADO*/
+    img {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+
+    /* 3 - TITULO COR AZUL, 25 PX E CENTRALIZADO*/
+    h4 {
+      text-align: center;
+      color: #1F456E;
+      font-size: 35px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* 4- LOCALIDADES E DISTANCIAS: FONTE TERCEIRA H3 GRANDEZA, NA COR VERMELHA-, 
+JUSTIFICAD E  TAMANHO 20PX, COR DA FONTE BRANCA */
+
+    h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #26619c
+    }
+
+    h2 {
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1c4966
+    }
+
+    h5 {
+      text-align: center;
+      font-size: 25px;
+      color: #151E3D;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    /* 13- AQUI O PLANO DE FUNDO DO SITE */
+    body {
+        background-image: linear-gradient(45deg, coral, CornflowerBlue );
+	/* background-image: linear-gradient(45deg, coral, #f0f 100%);*/
+    }
+
+    /* 14- AQUI FORMATADO A LOGO TAMANHO, BORDA E CIRCUNFERÊNCIA */
+    #logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      position: center;
+      border: solid yellowgreen;
+
+    }
+  </style>
+</head>
+
+<body>
+  <!-- INICIO DO CORPO DA PÁGINA QUE SERÁ EXIBIDA NO BROWSER (NAVEGADOR) -->
+  <hr>
+
+  <div class="titulo">
+    <!-- 1 -  INSERIR O TITULO DO ASSUNTO DA PAGINA CARACTERES DE PRIMEIRA GRANDEZA  COR VERDE, TAMANHO 40 PX E ALINHAMENTO CENTRALIZADO-->
+    <h1>CIDADE DE ITANHANDU</h1>
+    <hr>
+
+    <!-- 2- INSERIR A FOTO/IMAGEM DA CIDADE DE ITANHANDU COM EXTENSÁO JPG(jpeg)  EM 50%, DISPALY BLOCK, MARGIN LEFT E RIGHT AUTOMATICAS -->
+    <img src="guiatur_img1.png"  style: "width: 100%;  display=block ;">
+
+    <hr>
+  </div>
+
+
+  <div class="informacao">
+    <!-- 3- INSERIR UM TEXTO SOBRE A CIDADE DE ITANHANDU  NA QUARTA GRANDEZA COM 25 PX, NA COR AZUL, CENTRALIZADO
+   E COM A FONTE DE ORIGEM DO TEXTO SEPARADO DO TEXTO-->
+    <h4>Sobre Itanhandu:</h4>
+    No princípio do século XVIII, um pequeno aglomerado de casas, circundado por várias fazendas, deu origem ao arraial
+    de Barra do Rio Verde, que se localizava aos pés da Mantiqueira e era banhado pelos rios Verde, Passa Quatro e
+    Ribeirão Itanhandu.
+    Em 1882 o arraial de Barra do Rio Verde acompanhou a chegada dos ferroviários que iniciaram a construção da estrada
+    de ferro que ligaria o lugarejo aos estados de São Paulo e do Rio de Janeiro e daria acesso a outras cidades
+    mineiras. O tráfego foi inaugurado em 1884 e a nova estação ferroviária denominou-se Capivari, por ser escoadouro do
+    Distrito de Santana do Capivari, integrante do município de Pouso Alto. Depois de Barra do Rio Verde, o arraial
+    passou a ser denominado Estação de Capivari, e, somente em 1904, a população mudou a denominação da localidade para
+    Itanhandu.
+    O nome Itanhandu, é de origem tupi-guarani e era chamado assim pelos índios Cataguases, porque o Rio Verde forma
+    grandes quantidades de pedras que correm ao longo das Eras(seixos rolados) e significa ITA = pedra; NHANDU =
+    corredeira, riscos, ema ou aranha, favorecendo as seguintes interpretações: pedras que correm ou seixos rolados,
+    pedras
+    riscadas ou seixos raiados, ema na pedra ou ema de pedra, aranha na pedra ou aranha de pedra. Além dessas versões,
+    os
+    antepassados também reconhecem para Itanhandu os significados de pássaro na pedra e, até mesmo, pássaro de pedra,
+    argumentando o fato de haver grande quantidade de pássaros sobre as pedras do Rio Itanhandu.
+    Em 1911, o arraial Itanhandu passou a Distrito, pertencente ao município de Pouso Alto. Finalmente em 1923,
+    Itanhandu
+    torna-se município, e no ano 1940 foi elevado a Comarca.
+
+    <br>
+    <br>
+
+  <b>FONTE: </b><i>http://www.itanhandu.mg.gov.br/portal/index.php?option=com_content&view=category&layout=blog&id=1&Itemid=2</i>
+    <br><br>
+
+
+  </div>
+  <div class="tabela">
+    <!-- 4- LOCALIDADES E DISTANCIAS:AQUI FAZER NAS LINHAS DA TABELA INFORMAR AS DISTANCIAS DE ITANHANDU 
+PARA BH, RJ E SP(PESQUISAR DISTANCIAS NO GOOGLE), INSERIR TRAÇOS ATÉ O LIMITE DA DISTANCIA,
+ COM FONTE TERCEIRA GRANDEZA, NA COR VERMELHA, JUSTIFICAD0, TAMANHO 20PX, COR DA FONTE BRANCA -->
+    <h5>
+      <table class="distâncias">
+        <thead>
+          <tr>
+            DISTÂNCIAS EM KM
+            <br>
+            <br>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3763283.6290006875!2d-48.02415747573665!3d-22.910358354661405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x9e014462eb67ad%3A0xffaefa6c9d456e8e!2sItanhandu%2C%20MG%2C%2037464-000!3m2!1d-22.2956251!2d-44.9370154!4m5!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!3m2!1d-23.555771399999998!2d-46.6395571!5e0!3m2!1spt-BR!2sbr!4v1669810504624!5m2!1spt-BR!2sbr"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </tr>
+          <br>
+          <tr>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3772760.1673102584!2d-46.29226123923965!3d-22.566529442175632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x9e014462eb67ad%3A0xffaefa6c9d456e8e!2sItanhandu%2C%20MG%2C%2037464-000!3m2!1d-22.2956251!2d-44.9370154!4m5!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!3m2!1d-22.9068467!2d-43.1728965!5e0!3m2!1spt-BR!2sbr!4v1669810599621!5m2!1spt-BR!2sbr"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </tr>
+          <br>
+          <tr>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3812334.4378239936!2d-46.92369539064597!3d-21.073347200272686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x9e014462eb67ad%3A0xffaefa6c9d456e8e!2sItanhandu%2C%20MG%2C%2037464-000!3m2!1d-22.2956251!2d-44.9370154!4m5!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!3m2!1d-19.919052!2d-43.9386685!5e0!3m2!1spt-BR!2sbr!4v1669810628337!5m2!1spt-BR!2sbr"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </tr>
+
+
+
+          </tr>
+        </tbody>
+      </table>
+    </h5>
+    <hr>
+
+    <div class="turismo">
+      <!-- 5- INSERIR O TITULO TURISMO COM CARACTERE (O TEXTO JA SAIRÁ VERDE E CENTRALIZADO POIS
+  A FONTE H1 JÁ FOI FORMATADA NO ITEM 1 NÃO PRECISANDO FORMATA-LA NOVAMENTE) -->
+      <h1>TURISMO</h1>
+    </div>
+
+
+  </div>
+  <div class="imagem_turismo">
+    <!-- 6- INSERIR A FOTO/IMAGEM DE UM PONTO TURISTICO DA CIDADE DE ITANHANDU COM EXTENSÁO JPG(jpeg) 
+NOTARÁ QUE COMO FORMATAMOS A IMAGEM ANTERIORMENTE DO INICIO DO SITE, OS MESMOS EFEITOS SERÃO NOTADOS
+NESSA IMAGEM -->
+    <img src="guiatur_img2.png">
+    <br>
+    <br>
+  </div>
+
+  <div class="informacao">
+    <!-- 7-  INSERIR UM TEXTO SOBRE TURISMO DA CIDADE DE ITANHANDU CARACTERES DE QUARTA GRANDEZA SOMENTE 
+PARA O TITULO PONTOS TURISTICOS DE ITANHANDU JÁ HERDANDO  AS CARACTERISTICAS JÁ DEFINIDAS NOS
+ÍTENS ANTERIORES DE TAMANHO E CORES-->
+
+    A cidade de Itanhandu está encravada em um vale, no Sul de Minas Gerais, onde o Rio Verde desce serpenteando pela
+    Serra da Mantiqueira. Sua nascente encontra-se a 20 km da cidade, formando poços, corredeiras e cachoeiras de
+    extrema beleza, onde se pode observar uma fauna rica em aves e desfrutar de momentos aprazíveis junto a natureza. As
+    belezas naturais e paisagísticas do município são um atrativo a mais para o turismo esportivo e de aventura. O
+    relevo, por suas altitudes que variam de 900 a 2.665m, propicia a prática de montanhismo, moutain-bike, bóia-cross,
+    motociclismo, jeepismo e caminhadas pelas trilhas da região. Suas características geográficas amenizam as
+    temperaturas e criam um microclima tipicamante serrano e muito gostoso.
+
+    Os passeios a cavalo também integram o universo de possibilidades nas terras Itanhanduenses, percorrendo itinerários
+    como a Serra do Condado, o Alto das Posses dentre outros caminhos ecológicos.
+    Itanhandu hoje, junto com mais seis municípios da região, integra o Circuito Turístico Terras Altas da Mantiqueira,
+    faz parte do caminho velho da Estrada Real e está inserido na APA (Área de Proteção Ambiental da Serra da
+    Mantiqueira).
+
+    O Patrimônio Histórico de Itanhandu vem sendo reconhecido através do Inventário de Bens Imóveis, elaborado numa
+    parceria entre IEPHA (Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais) e a Prefeitura
+    Municipal, tendo como objetivo a preservação dos imóveis que refletem um pouco da história e da cultura do povo
+    Itanhanduense.
+
+    Para as compras na cidade, além do delicioso doce de leite e dos maravilhosos queijos, inclusive o famoso queijo
+    “Tipo Minas”, outro ponto alto é o artesanato vendido na antiga Estação Ferroviária, hoje, denominada Estação das
+    Artes e a degustação e venda dos doces caseiros e quitutes de milho na Serra dos Noronhas, e os famosos doces de
+    leite Ecila e Sulmisa.
+
+    Vale a pena conhecer e sentir de perto o magnetismo das montanhas de Minas Gerais, cuja porção mais bela se encontra
+    aqui na região.
+
+    Seu povo hospitaleiro desfruta de uma qualidade de vida invejável, que faz de Itanhandu um lugar especial.
+    <br>
+    <br>
+    <b>FONTE:</b>  <i>http://www.itanhandu.mg.gov.br/turismo.html</i>
+    <hr>
+
+    <ul>
+      <h4>PONTOS TURÍSTICOS DE ITANHANDU</h4>
+
+      <!-- 8- AQUI INFORMAR ALGUNS NOMES DE PONTOS TURISTICOS, SE PUDER INSIRA MAIS ALGUNS  PONTOS ABAIXO-->
+      <h2 >
+        <li>Poço do Cipó</li>
+      </h2>
+      <br>
+      <img
+        src="pococipo.png">
+      <br>
+      <h2>
+        <li>Pedra da Poeira</li>
+      </h2>
+      <br>
+      <img
+        src="pedrapoeira.png">
+      <br>
+      <h2>
+        <li>Pinicão</li>
+      </h2>
+      <br>
+      <img src="pinicao.png">
+    </ul>
+
+  </div>
+
+
+  <hr>
+
+  <div class="informacao">
+
+    <h4> SOBRE MINHA ESCOLA </h4>
+    <!-- 9 - INSERIR UM TEXTO DO ALUNO SOBRE SUAS EXPECTATIVAS PARA O FUTURO (UNIVERSIDADE, PROFISSAO E VONTADES) -->
+
+    <h3> MINHAS EXPECTATIVAS RELACIONADOS AO COLÉGIO </h3>
+
+    Espero que o Colégio Minas Austral Objetivo continue a ser uma escola que proporciona diversas oportunidades e ajuda
+    os seus alunos durante a vida escolar. Além disso, que continue investindo cada vez mais em uma educação de
+    qualidade visando sempre o sucesso dos seus alunos.
+
+    <br>
+    <h3> AGRADECIMENTOS </h3>
+    Agradeço aos professores e à escola, por me oferecerem tantos ensinamentos, além de memórias que guardarei por muito
+    tempo.
+
+
+    <br>
+
+    <!-- 10 - AQUI INSERIR O LINK DO SITE DO OBJETIVO NO GOOGLE  -->
+    <hr><h3>CONHEÇA MINHA ESCOLA</h3>
+    <p><a href="https://objetivominasaustral.negocio.site/" style:"position: center;"><h3><i>COLÉGIO MINAS AUSTRAL OBJETIVO</i></h3></a></p>
+
+    <!-- 11 - AQUI INSERIR A LOGO DO OBJETIVO E FORMATAR CONFORME ORIENTAÇÕES  -->
+    <img src="logo.jpg" id="logo">
+  </div>
+  <hr>
+
+</body>
+<footer>
+  <!-- 12 AQUI INSERIR O NOME COMPLETO DO ALUNO, SERIE E NOME DA MATERIA COM CARACTERE DE LETRA DE QUARTA GRANDEZA-->
+  Grupo: <i><b>"EQUIPE MAPINGUARI"</b></i> - Alunos: <b> Vinícius Mira de Freitas, Carlos Alberto Nogueira Filho, Eduardo da Silva Ribeiro, João Miguel da Costa Araújo, Laura dos Santos Colombo e Pedro Furrier Inácio Guedes </b>  - Turma Série: <i><b> 2º ANO DO ENSINO MÉDIO </i></b>
+  <br> Matéria: OFICINA MULTIDISCIPLINAR (Itinerário Formativo) - Prof; Iraê César Brandão - Data criação:  02/12/2022
+
+  <! --13- No final, aplicado o efeito DEGRADÊ no fundo da página (BODY - como background) e a logo já configurada e
+    posicionada. Colar essas linhas de código no style (CSS) para dar o efeito de fundo MULTICOLORIDO e DEGRADÊ -->
+
+    <!--14-	Formatar a borda e circunferência, tamanho e posicionamento do logo. Criar um id dentro da imagem com o nome logo. E depois estilizar o id.>
+</footer>
+
+</html>
