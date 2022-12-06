@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="pt/BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exercício para testes uso de HTML e CSS">
+    <title>Pontos Turisticos de Itanhandu</title>
+
+    <style>
+/* COMENTÁRIO Nesta área fazer a personalização inserindo 
+os códigos CSS  - "folha de estilo" composta por “camadas” 
+e utilizada para definir a apresentação (aparência) */
+
+
+h1{
+         color:blue;
+         font-size:40px;
+         text-align:center;
+}
+
+img{
+      width:50%;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+}
+h4{
+      font-size:25px;
+      color:blue;
+      text-align:center;
+}
+
+h3{
+      font-size:20px;
+      background-color:gray;
+      text-align:center;
+      color:white;
+}
+ 
+.informacao h2{
+    display: flex;
+    padding: 10px 250px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+
+body{
+   background-color: whitesmoke;
+ 
+}
+
+#logo{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ position: center;
+ border: solid yellowgreen;
+}
+
+
+</style>
+</head>
+
+<body>
+<!-- INICIO DO CORPO DA PÁGINA QUE SERÁ EXIBIDA NO BROWSER (NAVEGADOR) -->
+<hr>
+
+
+<div class="titulo">
+<!-- 1 -  INSERIR O TITULO DO ASSUNTO DA PAGINA CARACTERES DE PRIMEIRA GRANDEZA  COR VERDE, TAMANHO 40 PX E ALINHAMENTO CENTRALIZADO-->
+<h1>ITANHANDU</h1>
+<hr>
+
+<!-- 2- INSERIR A FOTO/IMAGEM DA CIDADE DE ITANHANDU COM EXTENSÁO JPG(jpeg)  EM 50%, DISPALY BLOCK, MARGIN LEFT E RIGHT AUTOMATICAS -->
+        <img src="itanhandu.jpg">
+    <hr>
+</div>
+
+
+<div class="informacao">
+<!-- 3- INSERIR UM TEXTO SOBRE A CIDADE DE ITANHANDU  NA QUARTA GRANDEZA COM 25 PX, NA COR AZUL, CENTRALIZADO
+   E COM A FONTE DE ORIGEM DO TEXTO SEPARADO DO TEXTO-->
+
+    <h4>SOBRE A CIDADE:</h4> 
+    <h2>Itanhandu é uma cidade pequena, com poucos moradores e bem receptiva um lugar pra passear quando estiver cansado dos sons exagerados e tumulto que a cidade grande apresenta, um lugar para morar quando quiser trazer paz para sua mente. Itanhandu, um lugar para uma pessoa como você!</h2>
+    <br><br>
+</div> 
+<div class="tabela">
+<!-- 4- LOCALIDADES E DISTANCIAS:AQUI FAZER NAS LINHAS DA TABELA INFORMAR AS DISTANCIAS DE ITANHANDU 
+PARA BH, RJ E SP(PESQUISAR DISTANCIAS NO GOOGLE), INSERIR TRAÇOS ATÉ O LIMITE DA DISTANCIA,
+ COM FONTE TERCEIRA GRANDEZA, NA COR VERMELHA, JUSTIFICAD0, TAMANHO 20PX, COR DA FONTE BRANCA -->
+<h3>
+<table class="distancias">
+  <thead>
+      <tr>
+      <th>LOCALIDADES  ----</th><th>    DISTANCIA EM KM</th>
+    </tr></thead>
+  <tbody><tr>
+      <td>SP ---------------------</td>   <td>224 km</td>
+    </tr><tr>
+      <td>BH ---------------------</td>   <td>294 km</td>
+    </tr><tr>
+      <td>RJ ---------------------</td>   <td>189 km</td>
+    </tr>
+
+
+
+    </tr></tbody>
+</table>
+</h3>
+<hr>
+
+<div class="turismo">
+<!-- 5- INSERIR O TITULO TURISMO COM CARACTERE (O TEXTO JA SAIRÁ VERDE E CENTRALIZADO POIS
+  A FONTE H1 JÁ FOI FORMATADA NO ITEM 1 NÃO PRECISANDO FORMATA-LA NOVAMENTE) -->
+<h1>O TURISMO NA CIDADE </h1>
+</div>  
+
+             
+</div>                   
+<div class="imagem_turismo">
+<!-- 6- INSERIR A FOTO/IMAGEM DE UM PONTO TURISTICO DA CIDADE DE ITANHANDU COM EXTENSÁO JPG(jpeg) 
+NOTARÁ QUE COMO FORMATAMOS A IMAGEM ANTERIORMENTE DO INICIO DO SITE, OS MESMOS EFEITOS SERÃO NOTADOS
+NESSA IMAGEM -->
+<img src="turistico.jpg">
+<br>
+<br>
+</div>
+
+<div class="informacao">
+<!-- 7-  INSERIR UM TEXTO SOBRE TURISMO DA CIDADE DE ITANHANDU CARACTERES DE QUARTA GRANDEZA SOMENTE 
+PARA O TITULO PONTOS TURISTICOS DE ITANHANDU JÁ HERDANDO  AS CARACTERISTICAS JÁ DEFINIDAS NOS
+ÍTENS ANTERIORES DE TAMANHO E CORES-->
+<h2>O turismo em Itanhandu baseia-se em lugares com belas paisagens naturais, repletas de verde e acompanhadas do relaxante som das águas que banham a cidade. Além das pousadas aconchegantes e modernas disponibilizadas para melhor repouso de seus hóspedes. Sem contar as melhorias anuais em questões de comemorações festivas, com decorações criativas e feitas totalmente a mão, pelos artesãos da cidade.</h2>
+
+
+<hr>
+
+ <ul>
+	<h4>PONTOS TURISTICOS DE ITANHANDU</h4>
+         
+           <a>    
+       <h3>Relacionamos abaixo alguns pontos turisticos de minha cidade</h3>
+          </a>     
+<!-- 8- AQUI INFORMAR ALGUNS NOMES DE PONTOS TURISTICOS, SE PUDER INSIRA MAIS ALGUNS  PONTOS ABAIXO-->               
+<li>Cachoeira do Vô Delfim</li>
+<li>Pérola da Serra</li>
+<li>Queijos Almeida Guimarães</li>
+<li>Pedra Preta</li>
+<li>Poço do cipó</li>
+</ul>
+
+</div>
+
+
+<hr>
+
+<div class="informacao">
+
+   <h4> DEPOIMENTO :  "SOBRE MINHA ESCOLA" </h4>
+<!-- 9 - INSERIR UM TEXTO DO ALUNO SOBRE SUAS EXPECTATIVAS PARA O FUTURO (UNIVERSIDADE, PROFISSAO E VONTADES) -->
+
+   <h3> "MINHAS EXPECTATIVAS RELACIONADOS AO MEU COLEGIO" </h3>
+   <h2>Minhas expectativas é para uma melhora no ensino, para que sobrecarregue menos os alunos e que escutem mais nossas sugestões.</h2>
+   
+  
+
+    <br>
+   <h3> AGRADECIMENTOS:</h3>
+   <h2>O Colégio Minas Austral Objetivo segue uma linha de ensino muito eficaz, os funcionários tratam muito bem os alunos, sempre escutando suas sugestões e tentando incluí-las de alguma forma, assim como todas as escolas, algum pontos precisam ser melhorados, porém, cada um dá o seu melhor e tenta evluir constantemente, professores e alunos, criando essa relação recíproca e trazendo boas memórias dessa época escolar.</h2>
+
+     
+
+     <br>
+
+<!-- 10 - AQUI INSERIR O LINK DO SITE DO OBJETIVO NO GOOGLE  -->
+<hr>Conheça minha escola: 
+<p><a href="https://minasaustralobjetivo.com.br/">COLEGIO MINAS AUSTRAL OBJETIVO</a></p>
+<img src="objetivo_logo.jpg" id="logo">
+<!-- 11 - AQUI INSERIR A LOGO DO OBJETIVO E FORMATAR CONFORME ORIENTAÇÕES  -->
+<img src=""  id="">
+</div>   
+<hr>              
+			
+</body>
+<footer>
+<!-- 12 AQUI INSERIR O NOME COMPLETO DO ALUNO, SERIE E NOME DA MATERIA COM CARACTERE DE LETRA DE QUARTA GRANDEZA-->
+  Nome dos alunos: SOFIA GUIMARÃES COUTO,   LARA DOS SANTOS RIBEIRO e MARIA EDUARDA LÉO SOUZA (DUDA)-     
+  Serie:Segundo ano- EM                    
+  Ano:2022  
+  <br> Materia: OFICINA MULTIDISCIPLINAR (Itinerário Formativo) - Colégio Minas Austral- OBJETIVO - Itanhandu/MG - Prof. Iraê C.Brandao.
+
+<!--13No final, aplicado o efeito DEGRADÊ no fundo da página (BODY - como background) e a logo já configurada e posicionada.  Colar essas linhas de código no style (CSS) para dar o efeito de fundo MULTICOLORIDO e DEGRADÊ -->
+
+<!--14-Formatar a borda e circunferência, tamanho e posicionamento do logo. Criar um id dentro da imagem com o nome logo. E depois estilizar o id.
+</footer> -->
+
+</html>
